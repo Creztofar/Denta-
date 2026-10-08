@@ -1,0 +1,13 @@
+{
+  "name": "smilecare-clinic-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dental clinic website and role-based patient, doctor, and clinic operations portal.",
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "dev": "node --env-file-if-exists=.env --watch server/index.mjs",
+    "test": "node --test"
+  }
+}

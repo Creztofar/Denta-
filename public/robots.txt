@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /patient
+Disallow: /doctor
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+Sitemap: /sitemap.xml
